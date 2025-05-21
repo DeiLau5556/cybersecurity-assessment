@@ -2,35 +2,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cybersecurity Assessment Service</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <div class="container">
-      <a href="index.html">Home</a>
-      <a href="dashboard.html">Dashboard</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </nav>
-  <header>
-    <div class="container">
-      <h1>Cybersecurity Assessment Service</h1>
-      <p>Simulated attacks · Vulnerability reports · Employee training</p>
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">CyberAssess</h1>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
   </header>
-  <section class="features">
+
+  <section class="hero">
     <div class="container">
-      <h2>Our Services</h2>
-      <div class="cards">
-        <div class="card"><h3>Simulated Attacks</h3><p>Phishing and penetration tests</p></div>
-        <div class="card"><h3>Reports</h3><p>Detailed reports and recommendations</p></div>
-        <div class="card"><h3>Training</h3><p>Hands-on security awareness programs</p></div>
+      <h2>Cybersecurity Assessment Service</h2>
+      <p>Helping your business stay secure through training, testing, and threat detection.</p>
+      <a href="contact.html" class="cta-button">Get in Touch</a>
+    </div>
+  </section>
+
+  <section class="features container">
+    <h3>Our Services</h3>
+    <div class="grid">
+      <div class="card">
+        <h4>Simulated Attacks</h4>
+        <p>Phishing and penetration tests to evaluate security posture.</p>
+      </div>
+      <div class="card">
+        <h4>Vulnerability Reports</h4>
+        <p>Customized technical documentation and risk summaries.</p>
+      </div>
+      <div class="card">
+        <h4>Cyber Awareness Training</h4>
+        <p>Interactive training to boost employee cyber hygiene.</p>
       </div>
     </div>
   </section>
-  <footer><div class="container">&copy; 2025 Cybersecurity Project – KTU</div></footer>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Cybersecurity Assessment – Team K553</p>
+    </div>
+  </footer>
 </body>
 </html>
